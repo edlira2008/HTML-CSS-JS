@@ -1,0 +1,27 @@
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 150px;
+    color:blue;
+padding: 20px;
+background-color: aquamarine;
+border-width: 5px;
+border-style: solid ;
+border-color: blueviolet;
+
+}
+div {
+    width: 40% ;
+    height: 50%;
+    border : 15px soliod red;
+    margin: 50px;
+    padding: 50px;
+    background-color: lightgreen;
+    text-align: center;
+}
+body {
+background:url("68.jpg") ;
+background-size: 100%;
+
+}
