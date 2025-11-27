@@ -7,12 +7,14 @@ article p {
 
 
 article div p {
-    background-color: blue;
+ background-color: blue;
+ padding: 10px;
 
 }
 
-article > p {
-    background-color: rgb(255, 102, 0);
+
+article > p{
+    background-color: rgb(255, 0, 157);
     padding: 20px;
 }
 
@@ -21,7 +23,7 @@ article ~ p {
     padding: 20px;
 }
 
-article +p {
+article + p {
 
     background-color: orange;
     padding: 20px;
@@ -41,7 +43,31 @@ main p:first-child{
     padding: 10px
 }
 
-a:hover {
+#link:hover{
     background-color: purple ;
 }
+ nav a{
 
+    padding: 20px;
+    margin: 20px; 
+ }
+
+ nav{
+
+   background-color: aqua;
+   padding: 20px;
+ }
+
+ nav a:hover {
+
+    background-color: rgb(53, 167, 167)
+ }
+
+nav a:active { 
+
+    background-color: brown;
+}
+
+nav a:visited{
+    color: yellow;
+}
