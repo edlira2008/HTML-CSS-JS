@@ -1,76 +1,64 @@
-article > p { 
-    background-color: red;
-    padding: 20px;
-     margin: 30px;
+
+
+
+
+#horizontal ul {
+   background-color: rgb(234, 154, 204);
+   padding: 25px;
+list-style-type: none;
+overflow: hidden;
+border-left: 15px solid rgb(130, 8, 100);
+font-size: 15px;
+
+   
 }
-div > p {
-    background-color: rgb(0, 255, 242);
-    padding: 20px;
-     margin: 30px;
+
+#horizontal ul li { 
+   
+   float: right;
+   
 }
- article ~ p {
-    background-color: greenyellow;
-    padding: 20px;
-    margin: 30px;
- }
 
- article + p {
-    background-color: pink;
-    padding: 20px;
-    margin: 30px;
- }
-
- input:in-range {
-    border: 2px solid green;
- }
- input:out-of-range {
-    border: 2px solid red;
- }
-
- nav  {
-    
-    padding: 20px;
-    margin: 20px;
-
- }
-
- nav a:hover { 
-   background-color: rgb(45, 0, 209);
- }
-
-table ,th ,td { 
-   border: 3px solid black ;
-   background-color: rgb(201, 115, 169);
-   padding: 20px;
-   margin: 35px; 
- 
-}
- ol { 
-   list-style-type: lower-alpha;
-   background-color: moccasin;
-   border-left: 5px solid green;
-   padding: 15px 25px;
-   margin: 20px; 
+#horizontal ul li a { 
+   color:black;
+   padding: 35px;
+   margin: 125px;
+   text-decoration: none;
    font-size: 20px;
-   color: black;
 
-  
- }
-ol li { 
-   border-bottom: 2px solid grey;
-   padding: 8px;
 }
 
-ul { 
-   list-style-type: none;
-   background-color: lightsalmon;
-   padding: 15px;
-margin-left: 20px;
-   border-left: 20px solid green;
+#horizontal ul li a:hover { background-color: rgb(203, 130, 164);}
+
+
+#horizontal ul li a:active { background-color: rgb(199, 175, 222);}
+
+
+
+article > p { 
+   background-color: lightgreen;
+   border-left: 15px solid green;
+   padding: 25px;
+   margin-bottom: 30px;
+   font-size: 17px;
 }
 
-ul li {
-   border-bottom: 2px solid black;
-   padding: 15px;
+
+article ~ p {
+   background-color: rgb(189, 87, 87);
+   border-left: 15px solid rgb(106, 6, 6);
+   padding: 25px;
+   margin-bottom: 30px;
+   font-size: 17px;
+}
+h1 { text-align: left;
+   padding: 35px;
+margin: top 30px; 
+font-size: 50px;}
+
+img { 
+padding: 35px;
+margin-top: 25px; 
+margin-left: 25px;
 
 }
