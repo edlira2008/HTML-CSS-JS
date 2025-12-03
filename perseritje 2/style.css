@@ -62,3 +62,50 @@ margin-top: 25px;
 margin-left: 25px;
 
 }
+
+#faqja2 h1 { text-align: left;
+   padding: 25px;
+margin: top 30px; 
+font-size: 50px;
+border-left: 20px solid rgb(12, 11, 50);
+color: rgb(2, 2, 35);
+
+}
+figcaption { 
+   padding: 10px;
+   font-size: 15px;
+   text-align: left;
+   margin-left: 10px;
+}
+#faqja2 img { 
+   padding: 15px;
+   position: relative;
+   left: 10px
+}
+
+#vertical ul { 
+   list-style-type: none;
+   padding: 25px;
+   overflow: hidden;
+   background-color: rgb(152, 83, 93);
+   border-left: 15px solid rgb(58, 33, 46); 
+   border-right: 15px solid rgb(58, 33, 46); 
+
+
+}
+ #vertical ul li { 
+  float: left;
+ font-size: 20px;
+ }
+
+#vertical ul li a {
+    text-decoration: none;
+    padding: 35px;
+    margin: 135px;
+    color: black
+   
+}
+
+#vertical ul li a:hover { 
+   background-color: rgb(174, 139, 96);
+}
