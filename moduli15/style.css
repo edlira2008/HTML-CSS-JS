@@ -156,6 +156,10 @@ overflow: hidden;
 
   }
 
+  #nav-dropdown:hover #dropdown-content {
+   display: block;
+  }
   #row::after {
    display: table;
   }
+
