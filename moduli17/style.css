@@ -1,0 +1,63 @@
+.dropdown-content { 
+    display: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 150px;
+
+
+    background-color: lightpink;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.tooltip {
+    padding: 19px;
+    display: inline-block;
+    border: 2px dotted black;
+
+}
+
+.tooltip-text { 
+    visibility: hidden;
+}
+
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    width: 100px;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 110px;
+    left: 4%;
+    margin-left: -60px;
+}
+
+#example1 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10px 10px 20px 20px;
+}
+
+#example2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10px 25px;
+}
+
+#example3 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: radius 100px;;
+}
+#example4 {
+    width: 150px;
+    height: 150px;
+    background-image: url(kozmetika.webp);
+    border-radius: 20px;
+}
