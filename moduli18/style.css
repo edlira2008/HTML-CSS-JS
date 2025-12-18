@@ -1,0 +1,26 @@
+#test-div { 
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    color: black;
+    border-radius: 50px;
+   /* transform:scale(2.3) */
+   /* transform:scaleX(2); */
+   /* transform:scaleY(2); */
+   /* transform: skewX(35deg); */
+   /* transform: skewY(20deg); */
+
+
+}
+#transition{ 
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    transition: background 3s , border-radius 3s;;
+
+    
+}
+#transition:hover{
+    background-color: blue;
+    border-radius: 100px;
+}
