@@ -32,16 +32,22 @@ color:black;
 position: absolute;
 transform: translate(80px , 50px);
 background-color: red;
-width: 100px;
-height: 100px;
+width: 350px;
+height: 250px;
 color:black;
+border-radius: 50px;
+text-align: center;
+align-items: center;
+padding: 45px;
+font-size: 15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 } 
 
 #div1 {
   position:fixed; 
 background-color: lightseagreen;
-width: 45px;
+width: 50px;
 height: 55px;
 color:chartreuse;
 transform: rotate(90deg);

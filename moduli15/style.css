@@ -94,9 +94,9 @@ div#div3 {
  }
 
  #dropdown { 
-   background-color: lightpink;
+   background-color: rgb(23, 158, 109);
    overflow: hidden;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
  }
 
  #dropdown a { 
@@ -126,7 +126,7 @@ div#div3 {
   }
 
   #dropdown a:hover, #nav-dropdown:hover { 
-   background-color: rgb(214, 182, 187);
+   background-color: rgb(195, 41, 64);
   }
 
   #dropdown-content { 
