@@ -24,3 +24,15 @@
     background-color: blue;
     border-radius: 100px;
 }
+
+#engineers img {
+    transform: rotate(25deg);
+    border-radius: 100px;
+    width: 250px;
+    height: 150px;    
+
+}
+
+#engineers:hover img { 
+    transform: rotate(20deg);
+}

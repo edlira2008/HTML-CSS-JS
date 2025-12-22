@@ -18,33 +18,33 @@ th , td {
 
 
 
-div { 
-  display: flex;
-  background-color: blue;
-  padding: 20px;
-  margin-bottom: 100px;
+
+  
+#test-div { 
+transform: scale( 5,1 );
+position: relative;
+background-color: lightcoral;
+width: 100px;
+height: 50px;
+color:black;
 }
-
-div:hover {
-  background-color: red;
-  transition: background 3s;
-}
-
-
-
-
 #tooltip {
-  position: relative;
-  transform: scale(1, 1);
-  background-color: lightpink;
-  padding: 5px;
-  margin-top: 20px;
-}
+position: absolute;
+transform: translate(80px , 50px);
+background-color: red;
+width: 100px;
+height: 100px;
+color:black;
 
-#tool-tip{ 
-  transform: translate(50px , 20px);
-  background-color: lightgreen;
-  padding: 15px;
-  margin-top: 5px;
+} 
+
+#div1 {
+  position:fixed; 
+background-color: lightseagreen;
+width: 45px;
+height: 55px;
+color:chartreuse;
+transform: rotate(90deg);
+text-align: center;
 
 }
