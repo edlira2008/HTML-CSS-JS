@@ -1,56 +1,104 @@
-table {
-    border: 3px solid black;
-    margin: 50px;
-padding: 15px;
-      background-color: aquamarine;
+#vertical { 
+  background-color: lightpink;
+  color: black;
+  margin-left: 30px;
+  padding: 25px;
+  margin: 30px;
+}
+#vertical ul { 
+  list-style-type: none;
+  padding: 10px;
+  margin: 20px;
+  overflow: hidden;
+}
+#vertical ul li { 
+  padding: 10px;
+}
+
+#vertical ul li a {
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: 10px;
 
 }
-th , td {
-    border: 2px solid black ;
+hr { 
+  padding: 10px;
+  background-color: grey;
+}
 
+#vertical ul li a:hover {
+  background-color: lightgreen;
+}
+
+#dropdown {
+  background-color: lightgreen;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dropdown a { 
   padding: 15px;
-    margin: 15px;
-    margin-left: 10px;
-
-    font-size: 15px;
-    color: darkblue; 
-}
-
-
-
-
-  
-#test-div { 
-transform: scale( 5,1 );
-position: relative;
-background-color: lightcoral;
-width: 100px;
-height: 50px;
-color:black;
-}
-#tooltip {
-position: absolute;
-transform: translate(80px , 50px);
-background-color: red;
-width: 350px;
-height: 250px;
-color:black;
-border-radius: 50px;
-text-align: center;
-align-items: center;
-padding: 45px;
-font-size: 15px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-} 
-
-#div1 {
-  position:fixed; 
-background-color: lightseagreen;
-width: 50px;
-height: 55px;
-color:chartreuse;
-transform: rotate(90deg);
-text-align: center;
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  float: left;
 
 }
+
+#nav-dropdown { 
+  float: left;
+  overflow: hidden;
+}
+
+#dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: black;
+  color: white;
+  padding: 15px;
+  background-color: inherit;
+  font: inherit;
+}
+
+#dropdown a:hover { 
+  background-color: lightpink;
+}
+
+#dropdown-content { 
+  display: none;
+  position: absolute;
+  background-color: beige;
+  width: 100%;
+  box-shadow: 10px black;
+}
+ #column {
+  float: none;
+  width: 50%;
+  padding: 10px;
+  background-color: bisque;
+  height: 250px;
+
+ }
+ #column a {
+
+  text-decoration: none;
+  color: blanchedalmond;
+  display: block;
+  text-align: left;
+  float: none;
+  padding: 15px;
+
+
+ }
+
+ #nav-dropdown:hover #dropdown-content {
+  display: block;
+
+ }
+
+ #row::after { 
+  display: table;
+ }
