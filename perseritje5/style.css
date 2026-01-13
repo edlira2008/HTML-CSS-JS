@@ -1,0 +1,19 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+nav { 
+    padding: 10px;
+    background-color: deepskyblue;
+}
+ nav a {
+    text-decoration: none; } 
+ 
+nav img { 
+    width: 65px;
+    height: 65px;
+    float: left; }
+ nav ul {
+    padding
+ }
