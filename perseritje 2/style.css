@@ -1,0 +1,22 @@
+.banner img {
+    height: 350px;
+    width: 300px;
+    
+}
+.banner {
+    border: 3px solid pink;
+    margin: 10px;
+    float: left;
+}
+.nails {
+    text-align: left;
+    font-size: 25px;
+    color: rgb(243, 15, 53);
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+.banner:hover {
+    border: 5px solid green;
+}
