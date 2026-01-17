@@ -6,5 +6,6 @@ h1{
     border: 5px dotted black ;
     background-color: pink;
     
+} body {
+    background-image: url(kozmetika.webp);
 } 
-body  background: url (../moduli11/kozmetika.webp); 

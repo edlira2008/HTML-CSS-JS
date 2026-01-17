@@ -1,22 +1,37 @@
-.banner img {
-    height: 350px;
-    width: 300px;
+
+
+body{
+    background-image: url(images/wallpaper.jpg);
+   
+}
+nav ul {
+    padding: 35px;
+    margin: 10px;
+ 
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+ 
     
 }
-.banner {
-    border: 3px solid pink;
-    margin: 10px;
-    float: left;
-}
-.nails {
-    text-align: left;
-    font-size: 25px;
-    color: rgb(243, 15, 53);
+nav ul li a {
+    text-decoration: none;
+    margin-left: 125px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    margin-top: 5px;
-    padding: 10px;
-
+    font-size: large;
+    
+    
 }
-.banner:hover {
-    border: 5px solid green;
+nav img {
+    float: left;
+    width: 65px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+
 }
