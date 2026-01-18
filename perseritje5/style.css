@@ -1,15 +1,15 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
-    color: white;
+    color: rgb(9, 9, 9);
 }
 
  nav ul {
     padding: 35px;
 
-    color: white;
+    color: rgb(7, 7, 7);
     list-style-type: none;
-    background-color:rgb(202, 140, 194);
+   
     margin-bottom: 25px;
     overflow: hidden;
  }
@@ -17,44 +17,57 @@ body {
     text-decoration: none;
     padding: 35px;
     margin-right: 70px;
-    color: azure;
+    color: rgb(12, 12, 12);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+font-size: 18px;
+position: relative;
+margin-top: 85px;
 
 }
 nav ul li {
-    float: left;
+    float: right;
 }
 nav img { 
-    width: 70px;
-    height: 80px;
+    width: 170px;
+    height: 115px;
     float: left;
+    margin-left: 25px;
 }
 
  #banner { 
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     align-items: center;
     display: block;
-    margin: 0 auto;
+    border-radius: 10px;  
+      margin: 0 auto;
+      margin-top: 65px;
     
  }
  p {
-    color: aliceblue;
-    font-size: 85px;
-    text-align: center; } 
+    color: rgb(5, 5, 5);
+    font-size: 65px;
+   margin-left: 60px;
+   font-family: sans-serif;
+
+ 
+    } 
     
 
  
  #paragrafi1 {
     font-size: 75px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: azure;
+    color: black;
+    text-align: center;
+    
 
  }
  #paragrafi2 {
     font-size: large;
-    color: rgb(202, 140, 194);
+    color: palevioletred;
+    text-align: center;
+    margin-bottom: 65px;
 
  }
  
@@ -63,21 +76,27 @@ nav img {
  .gallery1 {
    margin: 10px;
    padding: auto;
-   border: 2px solid white;
+   border: 2px solid black;
    float: left;
    margin-left: 48px;
  }
  .gallery1:hover {
-   border: 3px solid palevioletred;
+   border: 5px solid palevioletred;
  }
  .gallery1 img {
    width: 300px;
-   height: 350px;
+   height: 320px;
 
   }
  
  .iphone17 {
    padding: 10px;
    text-align: center;
-   color: white;
+   color: black;
  }
+ body {
+   background-image: url(images/PINKKK.jpg);
+ }
+
+ 
+ 
