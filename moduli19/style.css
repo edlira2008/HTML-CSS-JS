@@ -1,0 +1,102 @@
+.container {
+
+    display: flex;
+    background-color: rgb(211, 95, 159);
+}
+
+.container div {
+margin: 25px;
+padding: 35px;
+background-color: rgb(211, 180, 218);
+font-size: large;
+
+
+}
+
+.container div:nth-child(1) {
+ order: 2;
+ flex-grow: 2;
+
+
+
+}
+
+
+.container div:nth-child(2){
+ order: 3
+
+
+}
+
+.container div:nth-child(3){
+ order: 1
+
+
+}
+
+.container div:nth-child(4) {
+ order: 0
+
+
+}
+
+.container2 {
+    display: flex;
+    background-color: rgb(211, 95, 159);
+    flex-direction: row;
+}
+
+.container2 div {
+margin: 25px;
+padding: 35px;
+background-color:rgb(211, 180, 218);
+font-size: large;
+
+
+
+}
+
+
+.container2 div:nth-child(1) {
+    flex-grow: 2;
+}
+
+.container3 {
+    display: flex;
+    background-color: rgb(40, 157, 211);
+    flex-direction: row;
+    justify-content: end;
+}
+
+.container3 div {
+margin: 25px;
+padding: 35px;
+background-color: rgb(116, 185, 218);
+font-size: large;
+
+
+
+}
+
+
+.container4 {
+    display: flex;
+    background-color: rgb(40, 157, 211);
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container4 div {
+margin: 25px;
+padding: 35px;
+background-color: rgb(116, 185, 218);
+font-size: large;
+
+
+
+
+}
+
+.container4 div:nth-child(2) {
+    align-self: flex-start;
+}
