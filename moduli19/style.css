@@ -100,3 +100,39 @@ font-size: large;
 .container4 div:nth-child(2) {
     align-self: flex-start;
 }
+
+
+.container5 { 
+    display: flex;
+    background-color: rgb(207, 110, 216);
+    flex-direction: row;
+    height: 200px;
+    align-items: stretch;
+}
+
+.container5 div {
+   margin: 25px;
+   padding: 35px;
+   background-color: rgb(226, 163, 231);
+   font-size: large;
+
+}
+
+.container6 {
+    display: flex;
+    background-color: rgb(55, 20, 209);
+    flex-direction: row;
+    height: 200px;
+    align-self: stretch;
+    align-content: center;
+    flex-wrap: stretch;
+
+}
+
+.container6 div {
+   margin: 25px;
+   padding: 35px;
+   background-color: rgb(226, 163, 231);
+   font-size: large;
+  width: 400px;
+}
