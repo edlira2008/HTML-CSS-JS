@@ -123,9 +123,9 @@ font-size: large;
     background-color: rgb(55, 20, 209);
     flex-direction: row;
     height: 200px;
-    align-self: stretch;
+   
     align-content: center;
-    flex-wrap: stretch;
+    flex-wrap: wrap;
 
 }
 
