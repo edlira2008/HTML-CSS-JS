@@ -43,6 +43,13 @@ p {
 #prgf1 {
     text-align: center;
     font-size: 25px;
-
+   margin-top: 155px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#products1 {
+    background-color: rgb(231, 157, 168);
+    padding: 10px;
+    margin: auto;
+    
 }

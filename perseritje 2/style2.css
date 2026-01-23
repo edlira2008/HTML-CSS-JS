@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(80, 207, 152);
+
+  }
+  #services {
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    font: Montserrat , sans-serif;
+    margin-top: 65px;
+   
+   
+
+  }
+
+
+  .line {
+    width:90px;
+    height: 2px;
+    background-color: grey;
+    padding: 1px;
+    margin: auto;
+  }
