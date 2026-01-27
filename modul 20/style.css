@@ -85,9 +85,10 @@ img {
 }
 
 #service {
+    margin-top: -35px;
     color: white;
     text-align: center;
-    font-size: 75px;
+    font-size: 55px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #vertical-line {
@@ -103,7 +104,7 @@ body {
 }
 
 #teksti {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     font-family:  Open Sans Regular , sans-serif;
     margin-top: 135px;
@@ -112,25 +113,26 @@ body {
 }
 
 .flexbox {
-   
+   display: flex;
+   align-items: center;
     justify-content: space-evenly;
    background-color: rgb(80, 219, 161);
         display:block;
-   border-radius: 8px;
-  padding: 25px;
+   padding: 13px;
+  padding-top: 30px;
   margin:20px;
   overflow: hidden;
   float: left;
-  margin-left: 160px;
+  margin-left: 45px;
   margin-top: 210px;
   }
 
 #red {
-    font-size: 55px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
-    margin-bottom: 20px;
-    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
    
     
     
@@ -138,20 +140,23 @@ body {
 } 
  #tekst1 {
     font-family: Open Sans Regular , sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     text-align: center;
     color: white;
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 5px;
  }
  #redflag {
-    margin-left: 135px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 85px;
+    height: 70px;
     
  }
 
 
  #design {
-    font-size: 55px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
@@ -167,17 +172,19 @@ body {
     margin-bottom: 20px;
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
  }
  #pencil {
-    margin-left: 135px;
-    width: 130px ;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    width: 85px ;
+    height: 70px;
     
  }
 
  #deve {
-    font-size: 55px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
@@ -193,21 +200,22 @@ body {
     margin-bottom: 20px;
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
  }
  #setings {
-    margin-left: 135px;
-    width: 115px;
-  margin-top: -35px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-left: 112px;
+    width: 85px;
+    height: 70px;
+
  }
 
 
 
 
  #r1 {
-    font-size: 55px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
@@ -223,15 +231,15 @@ body {
     margin-bottom: 20px;
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
  }
  #raketa {
-    margin-left: 135px;
-    width: 115px;
-  
- margin-top: -35px;
     margin-bottom: 20px;
+    margin-left: 135px;
+    width: 85px;
+  height: 70px;
+ 
  }
 
  #touch {
