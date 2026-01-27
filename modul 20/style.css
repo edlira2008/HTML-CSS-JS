@@ -42,10 +42,17 @@ span {
 }
 
 
-body {
+header {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
     background-color: rgb(144, 74, 154);
-    margin-bottom: 165px;
-    padding: 36px;
+    margin-bottom: 170px;
+    padding: 20px;
+    padding-bottom: 85px;
+    margin-left: -20px ;
+    margin-top: -30px;
+
 }
 
 #oo {
@@ -76,3 +83,162 @@ button{
 img {
     margin-top: -30px;
 }
+
+#service {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#vertical-line {
+    width: 80px;
+   height: 5px;
+   background-color: gray;
+   margin-top: 155px;
+   margin: 10px auto 0px;
+   
+}
+body {
+    background-color: rgb(80, 219, 161);
+}
+
+#teksti {
+    font-size: 40px;
+    color: white;
+    font-family:  Open Sans Regular , sans-serif;
+    margin-top: 135px;
+    text-align: center;
+
+}
+
+.flexbox {
+   
+    justify-content: space-evenly;
+   background-color: rgb(80, 219, 161);
+        display:block;
+   border-radius: 8px;
+  padding: 25px;
+  margin:20px;
+  overflow: hidden;
+  float: left;
+  margin-left: 160px;
+  margin-top: 210px;
+  }
+
+#red {
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 25px;
+   
+    
+    
+    
+} 
+ #tekst1 {
+    font-family: Open Sans Regular , sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+ }
+ #redflag {
+    margin-left: 135px;
+    
+ }
+
+
+ #design {
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+   
+    
+    
+    
+} 
+ #tekst2 {
+    font-family: Open Sans Regular , sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+ }
+ #pencil {
+    margin-left: 135px;
+    width: 130px ;
+    
+ }
+
+ #deve {
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+   
+    
+    
+    
+} 
+ #tekst3 {
+    font-family: Open Sans Regular , sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+ }
+ #setings {
+    margin-left: 135px;
+    width: 115px;
+  margin-top: -35px;
+    margin-bottom: 25px;
+ }
+
+
+
+
+ #r1 {
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+   
+    
+    
+    
+} 
+ #tekst4 {
+    font-family: Open Sans Regular , sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+ }
+ #raketa {
+    margin-left: 135px;
+    width: 115px;
+  
+ margin-top: -35px;
+    margin-bottom: 20px;
+ }
+
+ #touch {
+
+     font-size: 55px;
+     margin-top: 750px;
+     text-align: center;
+     color: white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
