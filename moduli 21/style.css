@@ -10,10 +10,10 @@
 
 display: none;
 
-
-     }
+    }
 }
 
 p {
-    column-count: 2;
+
+    column-count: 5;
 }
