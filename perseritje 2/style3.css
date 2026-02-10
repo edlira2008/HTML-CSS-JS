@@ -170,11 +170,11 @@ button {
 
    #pjesa2   {
     margin-top: 8px;
-    margin-left: -35px;
+    margin-left: 35px;
         height: 100%;
         padding: 55px;
     width: 100%;
-    padding-left: 255px;
+    padding-left: 25px;
     background-color: white;
     overflow: hidden;
      float: left;
