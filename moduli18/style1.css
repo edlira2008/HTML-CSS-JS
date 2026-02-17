@@ -22,7 +22,7 @@
     animation-delay: 6s;
 }
 
-@keyframes bounce |{
+@keyframes bounce {
 to{
     width: 150px;
     height: 150px;
