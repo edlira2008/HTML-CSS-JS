@@ -1,0 +1,20 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto 10px;
+    padding: 35px;
+    border: 20px solid (to left #9ca700 , #007bf0) ;
+    background: linear-gradient(to right, #00ffff, #FF02FF);
+   border-radius: 5px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 150px;
+
+}
