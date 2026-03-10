@@ -71,10 +71,35 @@ console.log( v < w);
 var emri = "Edlira";
 var mbiemri = "Kastrati";
 var fullName = emri +" "+mbiemri;
-// pa e pas qita sdel qiky kodi nalt
+// pa e pas qita sdel qiky kodi nalt 
 console.log(fullName);
 
 
 
 //  e tregon ni fjali hello from edlira 
 console.log(`hello from ${emri}`);
+
+
+var email = "edlirak8@gmail.com";
+var password = "23563hehe";
+var fullText = email +"  " +password;
+
+console.log(fullText);
+//  opeeratirt logjik 
+
+
+var age = 24;
+// dhe mdoket dmth qajo shej 
+console.log(age >=18 && age <=65);
+
+
+var1 = 5;
+// sheja ose
+console.log(var1 >=7 || var1 ==5);
+
+
+var var2 = 10;
+var var3 = 12;
+// sheja not ose jo 
+
+console.log(!(var2 == var3));
