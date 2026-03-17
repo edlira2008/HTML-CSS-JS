@@ -60,8 +60,11 @@ console.log(f);
 var v = 100;
 var w = 50;
 // operatort e krahasimit
+// == bon krahasime se ajon dy vlera te barabarta , = e jep veq ni vler
 console.log( v == w);
+// i kqyr nese dy vlera jon tndryshme 
 console.log( v != w);
+
 console.log( v > w);
 console.log( v < w);
 
@@ -89,7 +92,7 @@ console.log(fullText);
 
 
 var age = 24;
-// dhe mdoket dmth qajo shej 
+// 'dhe' dmth qajo shej 
 console.log(age >=18 && age <=65);
 
 
