@@ -65,6 +65,11 @@ alert(Car['color']);
 
 function Computer(name , CPU , RAM , GPU) {
 
-
-    th
+  this.name = name;
+  this.CPU = CPU;
+  this.RAM = RAM;
+  this.GPU = GPU;
+  
 }
+var c1 = new Computer("Macbook", "8-core", "6GB", "5600M GPU");
+var c2 = new Computer("Acer", "Inter-core", "16GB", "Intergrated");

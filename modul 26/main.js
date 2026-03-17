@@ -1,4 +1,4 @@
-console.log("HELLOOO")
+console.log("HELLOOO");
 
 var x = 10;
 var value = "digital school";
