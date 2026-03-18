@@ -41,9 +41,8 @@ dsFunction();
 
 
   function toSeconds(m){
-    return  m*60;
-
-  }
+    return  m*120;
+   }
 
 console.log(toSeconds(5));
 

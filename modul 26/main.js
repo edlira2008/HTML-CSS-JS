@@ -64,8 +64,9 @@ var w = 50;
 console.log( v == w);
 // i kqyr nese dy vlera jon tndryshme 
 console.log( v != w);
-
+// ma e madhe
 console.log( v > w);
+// ma e vogel
 console.log( v < w);
 
 
@@ -88,7 +89,7 @@ var password = "23563hehe";
 var fullText = email +"  " +password;
 
 console.log(fullText);
-//  opeeratirt logjik 
+//  opeeratort logjik 
 
 
 var age = 24;
