@@ -110,4 +110,10 @@ btn2.onmouseover = function() {
     h1.style.color = "pink";
  }
  
-var btn = 66;
+var butoni8 = document.getElementById ("btnn8")
+var teksti66 = document.getElementById ("teksti6")
+
+butoni8.onclick = function() {
+
+ teksti66.style.cssText = 'color:red; background-Color: lightgrey font-Size:20px font-Family: fanstasy padding:15px border: 2px solid black; '
+}

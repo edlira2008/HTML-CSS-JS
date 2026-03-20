@@ -22,7 +22,7 @@ var btn4 = document.getElementById("btn4");
  btn4.onwheel = function() {
 
     alert("button 4 wheel");
- };
+ }
 
  var btn5 = document.getElementById("btn5");
 
