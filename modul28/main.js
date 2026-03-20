@@ -25,13 +25,30 @@ var btn4 = document.getElementById("btn4");
  }
 
  var btn5 = document.getElementById("btn5");
-
  var text1 = document.getElementById("text1");
 
 
  btn5.onclick = function() {
 
     text1.style.color = "pink";
+    text1.style.padding = '20px'
+    text1.style.textAlign = 'center'
+
  }
+  var butoni6 = document.getElementById('btni6')
+  var tekst = document.getElementById('text2')
+
+
+ butoni6.onclick = function() {
+
+  tekst.style.cssText = "color:red; font-size:25px; text-align:center; font-family:fantasy;" }
  
- 
+
+  var ifundit = document.getElementById('ifundit')
+  var pg = document.getElementById('pg')
+
+
+  ifundit.onclick=function() {
+    pg.setAttribute('class' ,'paragrafi')
+  }
+  
