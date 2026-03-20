@@ -118,12 +118,17 @@ butoni8.onclick = function() {
  teksti66.style.cssText = "color:red; background-color:lightgrey; font-size:20px;font-family:fanstasy; padding:15px; border:2px solid black;"
 }
 
-var p1 = document.getElementById ('i99')
-var p2 = document.getElementById ('pg')
+var i99 = document.getElementById("i99")
+var pg = document.getElementById("pg")
 
-p1.onclick = function() {
-   p2.setAttribute('class' ,'paragrafi')
+i99.onclick = function() {
+   pg.setAttribute('class' ,'paragrafi')
   }
 
 
   
+  function toSeconds(m){
+   return m*60;
+} 
+console.log(toSeconds(5));
+
