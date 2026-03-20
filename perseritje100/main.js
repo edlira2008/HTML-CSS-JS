@@ -115,5 +115,15 @@ var teksti66 = document.getElementById ("teksti6")
 
 butoni8.onclick = function() {
 
- teksti66.style.cssText = 'color:red; background-Color: lightgrey font-Size:20px font-Family: fanstasy padding:15px border: 2px solid black; '
+ teksti66.style.cssText = "color:red; background-color:lightgrey; font-size:20px;font-family:fanstasy; padding:15px; border:2px solid black;"
 }
+
+var p1 = document.getElementById ('i99')
+var p2 = document.getElementById ('pg')
+
+p1.onclick = function() {
+   p2.setAttribute('class' ,'paragrafi')
+  }
+
+
+  
