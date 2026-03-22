@@ -1,20 +1,122 @@
-div {
-    width: 200px;
-    height: 200px;
-    margin: 10px auto 10px;
-    padding: 35px;
-    border: 20px solid (to left #9ca700 , #007bf0) ;
-    background: linear-gradient(to right, #00ffff, #FF02FF);
-   border-radius: 5px;
+
+.logini1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+border: 1px solid lightgrey;
+border-radius: 15px;
+width: 30%;
+margin: auto;
+
+}
+#login {
+ text-align: center;
+font-family: Arial, sans-serif;
+
+ 
 }
 
-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    text-align: center;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 150px;
+img {
+  width: 25%;
+  margin: 10px auto 0px;
+  margin-top: 25px;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+
+input {
+ width: 70%;
+  padding: 10px;
+  border-radius: 12px;
+  
+  
+}
+#email {
+  margin-left: -65%;
+
+}
+#password {
+ margin-left: -57%
+}
+#inputi1 {
+margin-bottom: 20px;
+margin-top: 10px;
+
+}
+
+#inputi2 {
+margin-bottom: 20px;
+margin-top: 10px;
+
+}
+h5 {
+  color:darkblue;
+  margin-left: -35%;
+  margin-top: 5px;
+}
+button {
+  color: white;
+  
+  background-color: red;
+  border: solid red;
+  border-radius: 15px;
+  width: 75%;
+  padding: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#google {
+  width: 5%; 
+  padding-bottom: -30px;
+  padding-right: 10px;
+  margin-bottom: -3px;
+
+}
+
+#text {
+
+  padding: 15px;
+   border: 1px solid;
+  border-radius: 8px; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: -15px 
+
+}
+
+#scan {
+  width: 7%;
+ margin-bottom: -8px;
+ padding-right: 10px;
+
+}
+#scano {
+
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 8px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+  
+
+
+}
+
+#efundit {
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+  
+}
+@media (max-width: 768px) {
+  .logini1 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 300px) {
+  #borderi1 {
+    flex-direction: column;
+    text-align: center;
+  }
 }
