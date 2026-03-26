@@ -27,7 +27,7 @@ programingNumbers.pop()
  console.log(programingNumbers);
 
 
- //unshift - add an element at the begging of the list
+ //unshift - add an element at the beginning of the list
 
   programingLanguages.unshift("C#");
 
@@ -41,7 +41,7 @@ programingNumbers.pop()
 
   console.log(programingLanguages);
 
-//   splice-  cilin pozit , sa elemente , colen me shtu 
+//   splice-  cilin pozit , sa elemente , cilen me shtu 
 
 programingLanguages.splice(1, 2, 'Ruby');
 
