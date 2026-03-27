@@ -30,7 +30,7 @@ var btn4 = document.getElementById("btn4");
 
  btn5.onclick = function() {
 
-    text1.style.color = "pink";
+    text1.style.color = "pink"
     text1.style.padding = '20px'
     text1.style.textAlign = 'center'
 
