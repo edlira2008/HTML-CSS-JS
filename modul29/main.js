@@ -11,35 +11,32 @@ console.log(programingNumbers);
 
 console.log(programingLanguages[1]);
 
+// Push shton elemente ne fund te listes 
 
 programingLanguages.push('Java');
-
-programingNumbers.push('11');
-
+programingNumbers.push('16');
 
 document.write(programingLanguages);
-
 document.write(programingNumbers);
+
+
+
 //   pop delete last element
-
-
 programingNumbers.pop()
  console.log(programingNumbers);
 
 
+
  //unshift - add an element at the beginning of the list
-
   programingLanguages.unshift("C#");
-
   console.log(programingLanguages);
 
 
 // shift - delete the first Element of the list
-
-
   programingLanguages.shift();
-
   console.log(programingLanguages);
+
+
 
 //   splice-  cilin pozit , sa elemente , cilen me shtu 
 

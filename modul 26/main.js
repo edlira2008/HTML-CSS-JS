@@ -27,7 +27,7 @@ console.log(b);
 
 // mbledhja
 var c = 500;
-b+=5;
+c+=5;
 console.log(c);
 
 
@@ -107,3 +107,7 @@ var var3 = 12;
 // sheja not ose jo 
 
 console.log(!(var2 == var3));
+
+// var u = 100;
+// var r = 50;
+// console.log(u != r);
