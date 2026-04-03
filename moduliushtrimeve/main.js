@@ -36,3 +36,29 @@
 //    div3.onclick = function() {
 //     div3.setAttribute("class" , "hide");
 //  }
+
+
+
+
+// qito jon array dmth ni variabel ku mrena saj me ru shum elemente 
+var programingLanguages = [ "Python",  "C#","Java Script" ];
+
+console.log(programingLanguages);
+
+programingLanguages.push("CSS");
+console.log(programingLanguages);
+
+programingLanguages.pop();
+console.log(programingLanguages);
+
+programingLanguages.unshift("wordpress");
+console.log(programingLanguages);
+
+
+programingLanguages.shift();
+console.log(programingLanguages);
+
+
+programingLanguages.splice(1 , 2 , "wordp");
+console.log(programingLanguages);
+
