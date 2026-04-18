@@ -108,3 +108,47 @@ console.log(programingLanguages1);
 
 programingLanguages1.splice(2, 243, "rigon");
 console.log(programingLanguages1)
+
+
+var noon = 12;
+
+
+function showCurrentTime() {
+    var clock = document.getElementById('clock');
+    var currentTime = new Date();
+
+
+    var hours = currentTime.getHours();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+
+
+    var meridian = "AM"
+
+    if(hours >= noon) {
+        meridian = "PM";
+    }
+
+    var clockTime = hours + ":" + minutes + ":" + seconds + " " + meridian;
+    clock.innerText = clockTime; 
+}
+
+var oneSecond = 1000;
+setInterval(showCurrentTime, oneSecond);
+
+function updateClock() {
+    var wakeUpTimeSelector = document.getElementById("wakeUpTimeSelector");
+        wakeuptime = wakeUpTimeSelector.value;
+
+        var dsTimeSelector = document.getElementById("dsTimeSelector");
+        dstime = dsTimeSelector.value;
+
+
+        var sleepTimeSelector = document.getElementById('sleepTimeSelector');
+        sleeptime = sleepTimeSelector.value;
+     }
+ var saveButton = document.getElementById('saveButton');
+ saveButton.addEventListener('click', updateClock);
+
+
+ 

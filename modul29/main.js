@@ -48,7 +48,7 @@ console.log(programingLanguages)
 // array destructuring 
 
 
-var students = ["Ahmeti", "Edlira" , "Rigon", "Ylli" , "Genti"];
+var students = ["Ahmeti", "Edlira" , "Rigon", "trimi" , "Genti"];
 
 var [s1, s2, s3, s4, s5] = students;
 
