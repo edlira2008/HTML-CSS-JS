@@ -30,3 +30,23 @@ for(x=1; x <= 5; x++) {
 document.getElementById('forLoop3').innerHTML = text1;
 console.log(text1);
 
+var cars1 = ['golf' , 'ford' , 'fiat', 'mazda'];
+var text2 = '';
+
+text2 += cars1[0] + '<br>';
+text2 += cars1[1] + '<br>';
+text2 += cars1[2] + '<br>';
+text2 += cars1[3] + '<b(r>';
+
+document.getElementById('forLoop4').innerHTML = text2;
+console.log(text2);
+
+
+
+var text5 = '';
+
+for(c=3; c <= 8; c++) {
+    text5 += "the number is " + c + "<br>";
+}
+ document.getElementById('forLoop5').innerHTML = text5;
+ console.log(text5);
