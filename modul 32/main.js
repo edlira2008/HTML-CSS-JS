@@ -1,3 +1,6 @@
+
+
+// qito  e ka emrin regex = regular expresions 
 var input1 = document.getElementById('input_id');
 var btn = document.getElementById('btn_id');
 var tekst = document.getElementById('tekst_id');
