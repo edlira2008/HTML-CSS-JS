@@ -1,3 +1,4 @@
+// qito jane array
 var programingLanguages = ["Python" , "JavaScript" , "Css"];
 
 console.log(programingLanguages);
