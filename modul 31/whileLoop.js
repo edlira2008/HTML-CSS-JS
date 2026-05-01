@@ -3,7 +3,7 @@ let x = 0;
 var text = '';
 
 
-while(n < 3) {
+while(n < 6) {
     n++
 x+=n;
 
