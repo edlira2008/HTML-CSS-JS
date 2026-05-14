@@ -6,4 +6,11 @@ $(function(){
 });
 
 
-$('#tabs').tabs()
+$('#tabs').tabs();
+
+
+$(function(){
+    $('tabs').accordion({
+        collapsible:true
+    })
+})
