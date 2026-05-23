@@ -209,72 +209,92 @@
 // return true;
 //   }
   
-// }
+// }a
 
 
-function validation() {
+// function validation() {
 
-    var name = document.getElementById('name').value;
-    var age = document.getElementById('age').value;
-    var city = document.getElementById('city').value;
+//     var name = document.getElementById('name').value;
+//     var age = document.getElementById('age').value;
+//     var city = document.getElementById('city').value;
 
     
 
-    var name_regex = /^[A-Za-z]+$/;
+//     var name_regex = /^[A-Za-z]+$/;
 
-    var age_regex = /^[0-9]+$/;
+//     var age_regex = /^[0-9]+$/;
 
-    if(!(name.match(name_regex)) || !(age.match(age_regex)) ||  city == ''){
+//     if(!(name.match(name_regex)) || !(age.match(age_regex)) ||  city == ''){
 
-     if(!(name.match(name_regex)))
-        {
-        document.getElementById('name_error').style.visibility = 'visible';
-    }else {
-        document.getElementById('name_error').style.visibility = 'hidden';
-    }
+//      if(!(name.match(name_regex)))
+//         {
+//         document.getElementById('name_error').style.visibility = 'visible';
+//     }else {
+//         document.getElementById('name_error').style.visibility = 'hidden';
+//     }
 
-if(!(age.match(age_regex)))
-{
-    document.getElementById('age_error').style.visibility = 'visible';
-}else {
-    document.getElementById('age_error').style.visibility = 'hidden';
+// if(!(age.match(age_regex)))
+// {
+//     document.getElementById('age_error').style.visibility = 'visible';
+// }else {
+//     document.getElementById('age_error').style.visibility = 'hidden';
+// }
+
+
+
+// if(city == '') {
+//     document.getElementById('city_error').style.visibility ='visible';
+// }else {
+//     document.getElementById('city_error').style.visibility ='hidden';
+// }
+// return false;
+
+//  }else {
+// document.getElementById('name_error').style.visibility = 'hidden';
+// document.getElementById('age_error').style.visibility = 'hidden';
+// document.getElementById('city_error').style.visibility = 'hidden';
+
+
+// return true; 
+
+//  }
+// }
+//  var color = ['red' , 'blue', 'pink', 'yellow'];
+
+//  var names = ['edlira','zahir' , 'qefja', 'jona'];
+
+// function changeColor() {
+//     document.querySelector('body').style.background = color[Math.floor(Math.random()*color.length)];
+// }
+
+
+
+
+
+// function changeName() {
+//     document.querySelector('p').innerHTML = names[Math.floor(Math.random()*names.length)];
+// }
+
+
+// setInterval(changeColor , 100);
+// setInterval(changeName , 100);
+
+
+
+let images = ["img1.jpg", "img2.jpg"];
+let currentIndex = 0;
+
+function changeSlide(direction) {
+  currentIndex += direction;
+
+  // Nëse kalon limitin, kthehet në fillim ose fund
+  if (currentIndex < 0) {
+    currentIndex = images.length - 1;
+  }
+  if (currentIndex >= images.length) {
+    currentIndex = 0;
+  }
+
+  // Ndrysho foton
+  document.getElementById("slide").src = images[currentIndex];
 }
-
-
-
-if(city == '') {
-    document.getElementById('city_error').style.visibility ='visible';
-}else {
-    document.getElementById('city_error').style.visibility ='hidden';
-}
-return false;
-
- }else {
-document.getElementById('name_error').style.visibility = 'hidden';
-document.getElementById('age_error').style.visibility = 'hidden';
-document.getElementById('city_error').style.visibility = 'hidden';
-
-
-return true; 
-
- }
-}
- var color = ['red' , 'blue', 'pink', 'yellow'];
-
- var names = ['edlira','zahir' , 'qefja', 'jona'];
-
-function changeColor() {
-    document.querySelector('body').style.background = color[Math.floor(Math.random()*color.length)];
-}
-
-
-
-
-
-function changeName() {
-    document.querySelector('p').innerHTML = names[Math.floor(Math.random()*names.length)];
-}
-
-
-setInterval(changeColor , 100);
-setInterval(changeName , 100);

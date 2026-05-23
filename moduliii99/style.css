@@ -16,3 +16,39 @@ p {
     font-weight: bold;
     font-style: italic;
 }
+
+.slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.slider img {
+  width: 80%;
+  /* border-radius: 10px; */
+}
+
+/* Stilizimi i butonave */
+button {
+  position: absolute;
+  top: 50%; /* vendos në mes vertikalisht */
+   /* qendron fiks në mes */
+
+  border: 2px;
+  color: rgb(0, 0, 0);
+   
+  padding: 10px;
+  /* cursor: pointer; */
+  /* font-size: 20px; */
+  border-radius: 50%;
+  margin-left: -2px;
+}
+
+/* Pozita majtas dhe djathtas */
+/* .prev { left: 100px; }
+.next { right: 10px; }  */
+
+
+#right {
+    margin-left: -22px;
+}
