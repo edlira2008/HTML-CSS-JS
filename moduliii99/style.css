@@ -1,60 +1,18 @@
-.paragrafi {
-    color:blue;
-    padding: 20px;
-    background-color: aqua;
-    border-radius: 5px;
-    text-align: center;
+#name_error {
+    visibility: hidden;
+    color: red;
+}
+#age_error {
+    visibility: hidden;
+    color: red;
+}#city_error {
+    visibility: hidden;
+    color: red;
 }
 
-
-.shapecircle {
-    border-radius: 50%;
-    background-color: pink;
-    width: 100px;
-    height:50px;
+p {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
 }
-
-
-.shapesquare {
-    width: 200px;
-    height: 100px;
-    background-color: aqua;
-}
-
-.hide {
-    display: none;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    background-color: rgb(17, 123, 216);
-} */
- h1
-{
-color: red;
-font-weight: bold;
-} 
-.example {
-    background-color: rgb(223, 43, 43);
-    padding: 15px;
-    margin: 15px 0px;
-    border-left: 4px solid #007bff;
-    border-radius: 4px;
-}  .example h3 {
-    margin-top: 0;
-    color: #cf008d;
-} 
-
-
- .output {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
-    white-space: pre-wrap;
-    word-wrap: break-word;
- 
-   }
-

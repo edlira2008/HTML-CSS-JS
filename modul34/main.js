@@ -1,16 +1,16 @@
-// function printName() {
-// document.write('Edlira');
-// document.write('<br>');
-// // settimeout tregon per sa koh podon me ndodh qaj ekzekutim
-// setTimeout(
-//     function(){
-//          document.write('Detjon'); }, 3000 // qiky 3000 e tregon per sa sekonda 
-// )
-// document.write('Drin');
+function printName() {
+document.write('Edlira');
+document.write('<br>');
+// settimeout tregon per sa koh podon me ndodh qaj ekzekutim
+setTimeout(
+    function(){
+         document.write('Detjon'); }, 3000 // qiky 3000 e tregon per sa sekonda 
+)
+document.write('Drin');
 
-// }
+}
 
-// printName();
+printName();
 
 
 
