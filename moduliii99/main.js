@@ -298,3 +298,47 @@ function changeSlide(direction) {
   // Ndrysho foton
   document.getElementById("slide").src = images[currentIndex];
 }
+
+
+
+// function openMenu() {
+//   var menu = document.getElementById('myLinks')
+// if(menu.style.display == 'block') {
+//   menu.style.display =  'none';
+// }else {
+//   menu.style.display = 'block';
+// }
+
+// }
+
+$('button').click(function(){
+  $('div').addClass('dizajni')
+}).find('span').attr('2', 'hover over me');
+
+var butoni = document.getElementById('btn');
+var juhu = document.getElementById('header');
+
+butoni.onclick = function(){
+  juhu.style.color = 'pink';
+}
+
+
+$('#sort').sortable();
+
+
+$(function(){
+  $('#accordion').accordion()
+})
+
+
+$('#tabs').tabs();
+
+
+$(function(){
+  $('#tabs').accordion({
+    collapsible:true
+  }) 
+})
+
+
+
