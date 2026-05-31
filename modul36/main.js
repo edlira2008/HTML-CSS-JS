@@ -10,4 +10,4 @@ $('#button').click(function(){
 
 $('button').click(function(){
     $('div').addClass('clicked')
-}).find('span').attr('my title','hover over me');
+}).find('span');
