@@ -10,7 +10,7 @@ $('#tabs').tabs();
 
 
 $(function(){
-    $('tabs').accordion({
+    $('#tabs').accordion({
         collapsible:true
     })
 })
